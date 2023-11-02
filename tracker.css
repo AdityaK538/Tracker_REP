@@ -1,0 +1,119 @@
+.top{
+    position: relative;
+    background-color: rgb(209, 243, 243);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    height: 600px;
+    width: 800px;
+}
+.main{
+    margin-top: 150px;
+    position: relative;
+    top: 50px;
+    right: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.boxr{
+    padding: 10px;
+    box-shadow: 50px, 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    text-align: center;
+    border-radius: 50px;
+    background: linear-gradient(180deg, rgb(156, 42, 204)20%,rgb(71, 5, 252)80%);
+    /* background-color: blue; */
+    height: 500px;
+    width: 400px;
+}
+.boxl{
+    padding: 10px;
+    box-shadow: 50px, 50px, rgb(28, 64, 78);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position: static; */
+    text-align: center;
+    border-radius: 50px;
+    background-image: linear-gradient(top rgb(128, 2, 183),rgb(218, 135, 254) );
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 500px;
+}
+.circle{
+    position: relative;
+    bottom: 0px;
+    border: solid;
+    /* background-color: brown; */
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    background:linear-gradient(0deg, rgb(4, 0, 255) 10%,rgb(157, 0, 255) 90%);
+}
+.para{
+    position: relative;
+    top: 50px;
+    height: 200px;
+    width: 200px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.tab{
+    margin-top: 30px;
+    position: relative;
+    left: 50px;
+    border: solid;
+    border-radius: 30px;
+    width: 300px;
+    height: 30px;
+}
+.left{
+    float: left;
+    padding-left: 20px;
+}
+.right{
+    float: right;
+    padding-right: 20px;
+}
+.f_line{
+    color: crimson;
+    background-color: rgba(220, 20, 60, 0.4);
+    border-color: crimson;
+}
+.s_line{
+    color: gold;
+    background-color: rgba(250, 213, 6, 0.4);
+    border-color: gold;
+}
+.t_line{
+    color: green;
+    background-color: rgba(5, 203, 5, 0.4);
+    border-color: green;
+}
+.fo_line{
+    color: blue;
+    background-color: rgba(5, 5, 248, 0.4);
+    border-color: blue;
+}
+.con{
+    position: relative;
+    top: 30px;
+    left: 30px;
+    background-color: black;
+    color: white;
+    border: solid;
+    border-radius: 50px;
+    font-size: 180%;
+    width: 120px;
+    height: 40px;
+}
